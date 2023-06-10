@@ -1,0 +1,22 @@
+CONDITIONAL_A EVENT: Happens -> conditional,86
+CONDITIONAL_T EVENT: Happens -> conditional,4
+CONDITIONAL_A EVENT: termination power -> conditional,19
+CONDITIONAL_A EVENT: termination power (auto) -> conditional,3
+for TIMESPAN P_AFTER_I EVENT: Happens -> HappensWithin,5
+P_DURING TIME_PERIOD: Happens -> HappensWithin,6
+BETWEEN TIMEPOINT and TIMEPOINT: Happens -> HappensWithin,1
+within TIME_PERIOD: Happens -> HappensWithin,1
+after EVENT: Happens -> WHappensBeforeEvent,1
+P_BEFORE_E EVENT: Happens -> WHappensBeforeEvent,8
+until EVENT: Happens -> WHappensBeforeEvent,4
+following TIMESPAN from EVENT: Happens -> HappensAfter,1
+after DATE: Happens -> HappensAfter,1
+[at least] TIMESPAN P_AFTER_PF EVENT: Happens -> WHappensBefore,5
+[at least] TIMESPAN P_BEFORE_PF EVENT: Happens -> WHappensBefore,5
+within TIMESPAN P_AFTER_W EVENT: Happens -> WHappensBefore,38
+for TIMESPAN P_AFTER_I EVENT: Happens -> HappensWithin (surviving),6
+CONDITIONAL_A EVENT: termination power -> notice to terminate,17
+until EVENT: power to suspend -> power to resume,1
+P_BEFORE_S DATE: Happens -> SHappensBefore,15
+until DATE: Happens -> SHappensBefore,1
+P_EXCEPT EVENT: Happens -> suspend obligation,14

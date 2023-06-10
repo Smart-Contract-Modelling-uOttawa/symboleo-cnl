@@ -1,0 +1,68 @@
+Happens -> conditional,after EVENT,3
+Happens -> conditional,at EVENT,1
+Happens -> conditional,if EVENT,25
+Happens -> conditional,in case EVENT,6
+Happens -> conditional,in the event EVENT,22
+Happens -> conditional,once EVENT,3
+Happens -> conditional,should EVENT,4
+Happens -> conditional,upon EVENT,22
+Happens -> conditional,when EVENT,3
+Happens -> conditional,where EVENT,1
+termination power -> conditional,by EVENT,2
+termination power -> conditional,if EVENT,9
+termination power -> conditional,in the event EVENT,7
+termination power -> conditional,prior to EVENT,1
+termination power (auto) -> conditional,in the event EVENT,3
+Happens -> HappensWithin,commencing from EVENT and continuing for TIMESPAN,1
+Happens -> HappensWithin,during TIMESPAN beginning on EVENT,1
+Happens -> HappensWithin,during TIME_PERIOD,5
+Happens -> HappensWithin,during the period beginning DATE and ending on DATE,1
+Happens -> HappensWithin,for TIMESPAN following EVENT,1
+Happens -> HappensWithin,for a period of TIMESPAN (*implied),1
+Happens -> HappensWithin,for a period of TIMESPAN from EVENT,1
+Happens -> HappensWithin,throughout TIME_PERIOD,1
+Happens -> HappensWithin,within TIME_PERIOD,1
+Happens -> Happens (surviving),after EVENT,1
+Happens -> WHappensBeforeEvent,after EVENT,1
+Happens -> WHappensBeforeEvent,before EVENT,2
+Happens -> WHappensBeforeEvent,by EVENT,1
+Happens -> WHappensBeforeEvent,prior to EVENT,5
+Happens -> WHappensBeforeEvent,until EVENT,4
+Happens -> HappensAfter,following TIMESPAN from EVENT,1
+Happens -> HappensAfter,later than DATE,1
+Happens -> WHappensBefore,TIMESPAN after EVENT,1
+Happens -> WHappensBefore,TIMESPAN before EVENT,1
+Happens -> WHappensBefore,TIMESPAN following EVENT,1
+Happens -> WHappensBefore,TIMESPAN from EVENT,1
+Happens -> WHappensBefore,at least TIMESPAN prior to EVENT,3
+Happens -> WHappensBefore,no later than TIMESPAN after EVENT,2
+Happens -> WHappensBefore,no later than TIMESPAN prior to EVENT,1
+Happens -> WHappensBefore,within TIMESPAN (*implied),5
+Happens -> WHappensBefore,within TIMESPAN after EVENT,13
+Happens -> WHappensBefore,within TIMESPAN following EVENT,3
+Happens -> WHappensBefore,within TIMESPAN from EVENT,1
+Happens -> WHappensBefore,within TIMESPAN of EVENT,16
+Happens -> HappensWithin (surviving),for TIMESPAN following EVENT,2
+Happens -> HappensWithin (surviving),for a period of TIMESPAN after EVENT,1
+Happens -> HappensWithin (surviving),for a period of TIMESPAN following TIME_PERIOD,3
+right -> new obligation,from DATE to DATE,2
+right -> new obligation,until DATE,1
+right -> new obligation,until EVENT,2
+non-obligation -> new obligation,if EVENT,1
+non-power -> new power,unless EVENT,1
+termination power -> notice to terminate,at least TIMESPAN prior to EVENT,1
+termination power -> notice to terminate,by EVENT,1
+termination power -> notice to terminate,by giving TIMESPAN notice,2
+termination power -> notice to terminate,upon TIMESPAN notice,11
+termination power -> notice to terminate,with TIMESPAN notice,3
+power to suspend -> power to resume,until EVENT,1
+Happens -> SHappensBefore,before DATE,5
+Happens -> SHappensBefore,by DATE,1
+Happens -> SHappensBefore,no later than DATE,4
+Happens -> SHappensBefore,on DATE,2
+Happens -> SHappensBefore,on or before DATE,2
+Happens -> SHappensBefore,prior to DATE,1
+Happens -> SHappensBefore,until DATE,1
+Happens -> suspend obligation,except EVENT,1
+Happens -> suspend obligation,unless EVENT,8
+Happens -> suspend obligation,without EVENT,5

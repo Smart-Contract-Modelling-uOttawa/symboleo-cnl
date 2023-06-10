@@ -1,0 +1,39 @@
+Happens -> conditional,after EVENT,2,CONDITIONAL_A EVENT
+Happens -> conditional,if EVENT,1,CONDITIONAL_A EVENT
+Happens -> conditional,in the case of EVENT,1,CONDITIONAL_A EVENT
+Happens -> conditional,in the event EVENT,1,CONDITIONAL_A EVENT
+Happens -> conditional,in the event of EVENT,2,CONDITIONAL_A EVENT
+Happens -> conditional,provided that EVENT,1,CONDITIONAL_A EVENT
+Happens -> conditional,upon EVENT,5,CONDITIONAL_A EVENT
+Happens -> conditional,upon termination,1,CONDITIONAL_A EVENT
+Happens -> conditional,when EVENT,2,CONDITIONAL_T EVENT
+Happens -> HappensBefore,TIMESPAN later than EVENT,1,TIMESPAN P_AFTER_PF EVENT
+Happens -> HappensBefore,no later than DATE,1,P_BEFORE_S DATE
+Happens -> HappensBefore,no later than TIMESPAN after EVENT,1,[at least] TIMESPAN P_AFTER_PF EVENT
+Happens -> HappensBefore,on EVENT,1,CONDITIONAL_A EVENT
+Happens -> HappensBefore,on or before DATE,3,P_BEFORE_S DATE
+Happens -> HappensBefore,prior to EVENT,4,CONDITIONAL_A EVENT
+Happens -> HappensBefore,within TIMESPAN (*implied),3,___
+Happens -> HappensBefore,within TIMESPAN after EVENT,3,within TIMESPAN P_AFTER_W EVENT
+Happens -> HappensBefore,within TIMESPAN from EVENT,1,___
+Happens -> HappensBefore,within TIMESPAN of EVENT,5,within TIMESPAN P_AFTER_W EVENT
+Happens -> suspend obligation,unless EVENT,1,**
+Happens -> suspend obligation,without EVENT,2,P_EXCEPT EVENT
+Happens -> HappensAfter,from EVENT,1,___
+Happens -> HappensWithin,during TERM,2,P_DURING TIME_PERIOD
+Happens -> HappensWithin,for TIMESPAN after EVENT,1,___
+Happens -> HappensWithin,within TIME_PERIOD,2,___
+termination power -> conditional,in case EVENT,1,CONDITIONAL_A EVENT
+termination power -> conditional,in the event that EVENT,2,CONDITIONAL_A EVENT
+termination power -> conditional,on EVENT,1,CONDITIONAL_A EVENT
+termination power -> conditional,upon EVENT,1,CONDITIONAL_A EVENT
+termination power -> notice to terminate,after TIMESPAN EVENT,1,**
+termination power -> notice to terminate,after TIMESPAN from EVENT,1,___
+termination power -> notice to terminate,by EVENT,1,CONDITIONAL_A EVENT
+termination power -> notice to terminate,by providing TIMESPAN notice,1,CONDITIONAL_A EVENT
+non-obligation -> flip obligation,unless EVENT,1,**
+termination power (auto) -> conditional,in the event EVENT,1,CONDITIONAL_A EVENT
+right -> new obligation,after TIMESPAN (**implied?),1,___
+right -> new obligation,"for a TIMESPAN period, beginning TIMESPAN prior to EVENT",1,___
+right -> new obligation,unless EVENT,1,**
+power to suspend -> power to resume,until EVENT,1,___
